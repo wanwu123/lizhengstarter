@@ -2,8 +2,10 @@ package com.lizheng.component;
 
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.stereotype.Component;
 
 @ConfigurationProperties(prefix = "lizheng")
+@Component
 public class SoutConfiguration {
     private String wenZi = "lizhengTest";
 
