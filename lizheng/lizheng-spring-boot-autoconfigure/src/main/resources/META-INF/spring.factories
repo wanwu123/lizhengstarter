@@ -1,1 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.lizheng.util.SOUT
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.lizheng.config.SoutConfig
