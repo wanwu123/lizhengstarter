@@ -1,6 +1,7 @@
 package com.lizheng.annotation;
 
 
+import com.lizheng.component.SoutConfiguration;
 import com.lizheng.config.SoutConfig;
 import org.springframework.context.annotation.Import;
 
@@ -11,6 +12,6 @@ import java.lang.annotation.Target;
 
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
-@Import(SoutConfig.class)
+@Import(SoutConfiguration.class)
 public @interface EnableLizheng {
 }

@@ -11,4 +11,5 @@ public class SoutUtil {
     public String getCofig(){
         return soutConfiguration.getWenZi()+soutConfiguration.getPattern()+soutConfiguration.getNum();
     }
+
 }
