@@ -27,6 +27,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.lizheng</groupId>
+            <artifactId>lizheng-spring-boot-autoconfigure</artifactId>
+        </dependency>
+
     </dependencies>
 
 
